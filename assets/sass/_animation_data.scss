@@ -1,0 +1,36 @@
+@keyframes menu_text{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes header-bg{
+    0%{
+        background: linear-gradient(to left ,rgba(80, 216, 175, 0.747),rgba(80, 216, 175, 0.247));
+    }
+    25%{
+        background: linear-gradient(to top ,rgba(80, 216, 175, 0.747),rgba(80, 216, 175, 0.247));
+    }
+    50%{
+        background: linear-gradient(to right ,rgba(80, 216, 175, 0.747),rgba(80, 216, 175, 0.247));
+    }
+    75%{
+        background: linear-gradient(to bottom ,rgba(80, 216, 175, 0.747),rgba(80, 216, 175, 0.247));
+    }
+    100%{
+        background: linear-gradient(to left ,rgba(80, 216, 175, 0.747),rgba(80, 216, 175, 0.247));
+    }
+}
+@keyframes indigate-info{
+    to{
+        top: 70%;
+    }
+    from{
+        top: 10%;
+    }
+}

@@ -1,0 +1,24 @@
+.footer{
+    background-color: $gray;
+    border-top: 1px solid $green;
+    padding: 3rem 0;
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-between;
+        .box{
+            margin: 1rem 0;
+            h3{ text-transform: uppercase; font-size: 2rem;}
+            a{
+                color: $dark;
+                text-transform: uppercase;
+                font-size: 1.4rem;
+                transition: color .5s ease-in-out;
+                &:hover{
+                    color: $green;
+                }
+            }
+            span{ margin-right: .5em; color: $green;}
+        }
+    }
+}

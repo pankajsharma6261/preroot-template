@@ -1,0 +1,17 @@
+.header{
+    background: linear-gradient(to left ,rgba(80, 216, 175, 0.747),rgba(80, 216, 175, 0.247));
+    height: 75vh;
+    position: relative;
+    animation-name: header-bg;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    .header-content{
+        position: absolute;
+        top: 50%; transform: translateY(-50%);
+        left: 0; right: 0;
+        text-align: center;
+        a{ margin: 0 .5em; }
+    }
+}
